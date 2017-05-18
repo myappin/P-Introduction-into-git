@@ -1,0 +1,14 @@
+.git
+.git/
+.idea
+.idea/
+.vscode
+.vscode/
+_*
+_*/
+nbproject
+nbproject/
+node_modules
+node_modules/
+npm-debug.log*
+debug.log
