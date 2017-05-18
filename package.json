@@ -6,7 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "express": "~4.15.2",
+    "express": "git+ssh://git@github.com:expressjs/express.git#4.15.3",
     "ejs": "~2.5.6"
   }
 }
