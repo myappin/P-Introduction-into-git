@@ -9,8 +9,8 @@
     <p>Welcome to <%= title %></p>
     <p><a href="https://www.aputime.com" target="_blank">See</a></p>
     <ul>
-        <% for(var i = 0; i < whoisin.length; i++) { %>
-        <li><%= whoisin[i] %></li>
+        <% for(item in whoisin) { %>
+        <li><%= item %> : <%= whoisin[item] %></li>
         <% } %>
     </ul>
   </body>
