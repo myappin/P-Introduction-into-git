@@ -24,13 +24,13 @@ ssh-keygen -b 2048 -t rsa -C "WHAT IS THIS? WRITE IT HERE"
 ----
 
 Convertions menu > export OpenSSH
-and save key into C:/User/<username>/.ssh/id_rsa
+and save key into C:/User/\<username\>/.ssh/id_rsa
 
 or linux
 
 It shoud be done automatically by ssh-keygen. Check it!
 
-/home/<username>/.ssh/id_rsa 
+/home/\<username\>/.ssh/id_rsa 
 
 ----
 
