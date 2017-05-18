@@ -8,7 +8,7 @@ router.get('/', function (req, res, next) {
 
     let userModule, name;
     for (item in whoisin) {
-        if(!fs.existsSync('./../lib/user_module/' + whoisin[item] + '.js')){
+        if(!fs.existsSync('./lib/user_module/' + whoisin[item] + '.js')){
             continue;
         }
         try {
